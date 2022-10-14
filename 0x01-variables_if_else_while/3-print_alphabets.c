@@ -18,11 +18,11 @@ while (alpha <= 'z')
 putchar(alpha);
 alpha++;
 }
-char alpha = 'A';
-while (alpha <= 'Z')
+char Alpha = 'A';
+while (Alpha <= 'Z')
 {
-putchar(alpha);
-alpha++;
+putchar(Alpha);
+Alpha++;
 }
 putchar('\n');
 return (0);
