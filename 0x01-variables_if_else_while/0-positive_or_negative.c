@@ -17,13 +17,16 @@ if (n>0)
 {
 printf("%i is positive",n);
 }
-elif (n<0)
+else
+{
+if (n<0)
 {
 printf("%i is negative",n);
 }
 else
 {
 printf("%i is zero", n);
+}
 }
 return (0);
 }
