@@ -17,7 +17,7 @@ while (alpha <= 'z')
 {
 if (alpha == 'e' || alpha == 'q')
 {
-alpha++
+alpha++;
 }
 else
 {putchar(alpha);
