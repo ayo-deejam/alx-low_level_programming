@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - entry point
-*
-*description: 'checks if variable n is positive or negative'
-*return: Always 0 (success)
+ * * main - Entry point
+ *
+ * * Description: 'prints to the standard output using puts function'
+ *
+ * * Return: Always 0 (Success)
+ *
 */
 int main(void)
 {
