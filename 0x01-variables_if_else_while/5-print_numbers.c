@@ -12,10 +12,10 @@
  */
 int main(void)
 {
-char alpha = '1';
-while (alpha <= '9')
+char num = '0';
+while (num <= '9')
 {
-putchar(alpha);
+putchar(num);
 alpha++;
 }
 putchar('\n');
