@@ -33,6 +33,7 @@ while (n < 100)
 				{
 				putchar(n + '0');
 				}
+			break;
 			}
 		}
 	putchar(',');
