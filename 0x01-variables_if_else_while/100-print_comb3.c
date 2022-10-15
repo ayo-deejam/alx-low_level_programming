@@ -26,7 +26,6 @@ for (col = 0; col < 100; col += 10)
 	{
 		if (n < (col + row))
 		{
-			n++;
 		}
 		else
 		{
@@ -34,8 +33,8 @@ for (col = 0; col < 100; col += 10)
 			putchar(n % 10 + '0');
 			putchar(',');
 			putchar(' ');
-			n++;
 		}
+		n++
 	}
 }
 }
