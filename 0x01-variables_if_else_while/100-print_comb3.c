@@ -12,7 +12,7 @@
  */
 int main(void)
 {
-int n = 0;
+int n = 1;
 int m;
 while (n < 100)
 	{
@@ -23,7 +23,7 @@ while (n < 100)
 		}
 	else
 		{
-		for (m = 99; m < 10; m--)
+		for (m = 99; m > 10; m--)
 			{
 			if (n / 10 + n % 10 == m / 10 + m % 10  || n / 10 == n % 10)
 				{
