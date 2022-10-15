@@ -13,32 +13,34 @@
 int main(void)
 {
 int n = 1;
-int m;
-while (n < 100)
+int col;
+int row = 0;
+
+while (n < 99)
+{
+for (col = 0; col < 100; col += 10)
+{
+	row++;
+	for (m = 1; m < 10; m++)
 	{
-	if (n < 10)
+		if (n < col + row)
 		{
-		putchar('0');
-		putchar(n + '0');
-		}
-	else
-		{
-		for (m = 99; m > 10; m--)
-			{
-			if ((n / 10) == (n % 10) || (n / 10 + n % 10) == (m / 10 + m % 10))
-				{
-				n++;
-				}
-			else
-				{
-				putchar(n + '0');
-				}
+			n++;
 			break;
-			}
 		}
+		else
+		{
+			putchar(n / 10 + '0');
+			putchar(n % 10 + '0');
+			n++;
+		}
+	}
 	putchar(',');
 	putchar(' ');
 	n++;
-	}
+	
+}
+}
+}
 return (0);
 }
