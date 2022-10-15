@@ -24,7 +24,7 @@ for (col = 0; col < 100; col += 10)
 	row++;
 	for (m = 1; m < 11; m++)
 	{
-		if (n < (col + row))
+		if (n < (col + row) || n % 10 == 0)
 		{
 		}
 		else
