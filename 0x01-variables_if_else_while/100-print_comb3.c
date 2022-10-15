@@ -13,6 +13,7 @@
 int main(void)
 {
 int n = 1;
+int m;
 int col;
 int row = 0;
 
@@ -39,7 +40,6 @@ for (col = 0; col < 100; col += 10)
 	putchar(' ');
 	n++;
 	
-}
 }
 }
 return (0);
