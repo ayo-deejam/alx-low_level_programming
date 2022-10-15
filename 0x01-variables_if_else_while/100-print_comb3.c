@@ -17,7 +17,7 @@ int m;
 int col;
 int row = 0;
 
-while (n < 91)
+while (n < 90)
 {
 for (col = 0; col < 100; col += 10)
 {
