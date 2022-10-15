@@ -26,21 +26,17 @@ for (col = 0; col < 100; col += 10)
 	{
 		if (n < col + row)
 		{
-			n++;
 			break;
 		}
 		else
 		{
 			putchar(n / 10 + '0');
 			putchar(n % 10 + '0');
-			n++;
+			putchar(',');
+			putchar(' ');
 		}
-		break;
+		n++;
 	}
-	putchar(',');
-	putchar(' ');
-	n++;
-	
 }
 }
 return (0);
