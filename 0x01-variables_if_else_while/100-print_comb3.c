@@ -27,7 +27,6 @@ for (col = 0; col < 100; col += 10)
 		if (n < col + row)
 		{
 			n++;
-			break;
 		}
 		else
 		{
