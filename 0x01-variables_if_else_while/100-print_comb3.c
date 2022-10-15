@@ -37,9 +37,8 @@ while (n < 100)
 		}
 	putchar(',');
 	putchar(' ');
-	}
 	n++;
-}
+	}
 putchar('\n');
 return (0);
 }
