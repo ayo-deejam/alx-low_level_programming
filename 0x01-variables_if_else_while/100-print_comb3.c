@@ -34,7 +34,7 @@ for (col = 0; col < 100; col += 10)
 			putchar(',');
 			putchar(' ');
 		}
-		n++
+		n++;
 	}
 }
 }
