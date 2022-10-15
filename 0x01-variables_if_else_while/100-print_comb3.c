@@ -39,6 +39,5 @@ while (n < 100)
 	putchar(' ');
 	n++;
 	}
-putchar('\n');
 return (0);
 }
