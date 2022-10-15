@@ -38,5 +38,6 @@ for (col = 0; col < 100; col += 10)
 		n++;
 	}
 }
+putchar('\n');
 return (0);
 }
