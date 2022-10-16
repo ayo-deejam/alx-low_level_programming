@@ -15,14 +15,12 @@ int main(void)
 int n = 1;
 int outer_block;
 int counter;
-int block_counter = -1;
 
-for (outer_block = 0; outer_block < 10; outer_block ++)
+for (outer_block = 0; outer_block < 10; outer_block++)
 {
-	block_counter++;
-		for (counter = 0; counter < 100; counter++)
-		{
-			if (n / 10 <= 11 * block_counter || n / 10 % 10 <= n % 10  || n % 10 == 0)
+	for (counter = 0; counter < 100; counter++)
+	{
+		if (n / 10 <= 11 * outer_block || n / 10 % 10 <= n % 10  || n % 10 == 0)
 		{
 		}
 		else
@@ -37,7 +35,7 @@ for (outer_block = 0; outer_block < 10; outer_block ++)
 			}
 		}
 		n++;
-		}
+	}
 }
 putchar('\n');
 return (0);
