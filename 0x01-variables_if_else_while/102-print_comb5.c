@@ -29,7 +29,7 @@ for (counter_1 = 0; counter_1 < 100; counter_1++)
 			putchar(' ');
 			putchar(counter_2 / 10 + '0');
 			putchar(counter_2 % 10 + '0');
-			if (counter_1 < 99 && counter_2 < 100)
+			if (counter_1 < 98 && counter_2 < 99)
 			{
 				putchar(',');
 				putchar(' ');
