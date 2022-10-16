@@ -25,7 +25,7 @@ for (outer_block = 0; outer_block < 10; outer_block++)
 		}
 		else
 		{
-			if ((n / 10) % 10 <= n % 10)
+			if ((n / 10) % 10 >= n % 10)
 			{
 			}
 			else
