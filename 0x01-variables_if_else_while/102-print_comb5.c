@@ -13,22 +13,22 @@
 int main(void)
 {
 int n = 0;
-int m;
-int col;
-int row = 0;
+int counter_1;
+int counter_2;
 
-for (col = 0; col < 50; col++)
+for (counter_1 = 0; counter_1 < 50; counter_1++)
 {
-	for (m = 0; m < 2; m++)
+	for (counter_2 = 0; counter_2 < 2; counter_2++)
 	{
 		putchar(n / 10 + '0');
 		putchar(n % 10 + '0');
 		putchar(' ');
-		n++
+		n++;
 	}
 	if (n < 99)
 	{
 		putchar(',');
+		putchar(' ');
 	}
 }
 putchar('\n');
