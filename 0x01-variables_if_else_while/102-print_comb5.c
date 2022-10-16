@@ -12,22 +12,21 @@
  */
 int main(void)
 {
-int n = 0;
 int counter_1;
 int counter_2;
 
-for (counter_1 = 0; counter_1 < 50; counter_1++)
+for (counter_1 = 0; counter_1 < 100; counter_1++)
 {
-	for (counter_2 = 0; counter_2 < 2; counter_2++)
+	for (counter_2 = 0; counter_2 < 100; counter_2++)
 	{
-		putchar(n / 10 + '0');
-		putchar(n % 10 + '0');
+		putchar(counter_1 / 10 + '0');
+		putchar(counter_1 % 10 + '0');
 		putchar(' ');
-		n++;
+		putchar(counter_2 / 10 + '0');
+		putchar(counter_2 % 10 + '0');
 	}
-	if (n < 99)
+	if (counter_1 < 99)
 	{
-		putchar('\b');
 		putchar(',');
 		putchar(' ');
 	}
