@@ -27,6 +27,7 @@ for (counter_1 = 0; counter_1 < 50; counter_1++)
 	}
 	if (n < 99)
 	{
+		putchar('\b');
 		putchar(',');
 		putchar(' ');
 	}
