@@ -19,7 +19,7 @@ int block_counter = -1;
 
 for (outer_block = 0; outer_block < 10; outer_block ++)
 {
-	block_counter++
+	block_counter++;
 		for (counter = 0; counter < 100; counter++)
 		{
 			if (n / 10 <= 11 * block_counter || n / 10 % 10 <= n % 10  || n % 10 == 0)
