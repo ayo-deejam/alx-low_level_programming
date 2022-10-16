@@ -19,16 +19,22 @@ for (counter_1 = 0; counter_1 < 100; counter_1++)
 {
 	for (counter_2 = 0; counter_2 < 100; counter_2++)
 	{
-		putchar(counter_1 / 10 + '0');
-		putchar(counter_1 % 10 + '0');
-		putchar(' ');
-		putchar(counter_2 / 10 + '0');
-		putchar(counter_2 % 10 + '0');
-	if (counter_1 < 99)
-	{
-		putchar(',');
-		putchar(' ');
-	}
+		if (counter_1 == counter_2)
+		{
+		}
+		else
+		{
+			putchar(counter_1 / 10 + '0');
+			putchar(counter_1 % 10 + '0');
+			putchar(' ');
+			putchar(counter_2 / 10 + '0');
+			putchar(counter_2 % 10 + '0');
+			if (counter_1 < 99)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
 }
 putchar('\n');
