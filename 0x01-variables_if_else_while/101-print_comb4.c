@@ -25,13 +25,19 @@ for (outer_block = 0; outer_block < 10; outer_block++)
 		}
 		else
 		{
-			putchar(n / 100 + '0');
-			putchar(n / 10 % 10 + '0');
-			putchar(n % 10 + '0');
-			if (n < 789)
+			if ((n / 10) % 10 <= n % 10)
 			{
-				putchar(',');
-				putchar(' ');
+			}
+			else
+			{
+				putchar(n / 100 + '0');
+				putchar(n / 10 % 10 + '0');
+				putchar(n % 10 + '0');
+				if (n < 789)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 		n++;
