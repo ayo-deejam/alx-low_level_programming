@@ -20,24 +20,18 @@ for (outer_block = 0; outer_block < 10; outer_block++)
 {
 	for (counter = 0; counter < 100; counter++)
 	{
-		if (n / 10 <= 11 * outer_block || n % 10 == 0)
+		if (n / 10 <= 11 * outer_block || n % 10 == 0 || n /10 % 10 >= n % 10)
 		{
 		}
 		else
 		{
-			if ((n / 10) % 10 >= n % 10)
+			putchar(n / 100 + '0');
+			putchar(n / 10 % 10 + '0');
+			putchar(n % 10 + '0');
+			if (n < 789)
 			{
-			}
-			else
-			{
-				putchar(n / 100 + '0');
-				putchar(n / 10 % 10 + '0');
-				putchar(n % 10 + '0');
-				if (n < 789)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 		n++;
