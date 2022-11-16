@@ -9,13 +9,13 @@
  * @owner: name of owner of dog
  */
 
-void init_dog(struct dog *dog1, char *name, float age, char *owner)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (dog1 == NULL)
+	if (d == NULL)
 	{
-		dog1 = malloc(sizeof(struct dog));
+		d = malloc(sizeof(struct dog));
 	}
-	dog1->name = name;
-	dog1->age = age;
-	dog1->owner = owner;
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 }
