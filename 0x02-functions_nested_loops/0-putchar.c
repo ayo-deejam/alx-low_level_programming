@@ -10,8 +10,10 @@ int main(void)
 	int i = 0;
 
 	int len_of_array = sizeof(string) / sizeof(string[0]);
-	for (i; i < len_of_array; i++)
+	for (i = 0; i < len_of_array; i++)
+	{
 		_putchar(string[i]);
+	}
 	_putchar('\n');
 return(0);
 }
