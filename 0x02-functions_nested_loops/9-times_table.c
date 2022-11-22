@@ -34,9 +34,9 @@ void times_table(void)
 				}
 			}
 			if (count_1 <= 8)
-				{
-					_putchar(',');
-				}
+			{
+				_putchar(',');
+			}
 			count_1++;
 		}
 		_putchar('\n');
