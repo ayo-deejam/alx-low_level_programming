@@ -4,7 +4,7 @@
  *
  * Return: returns nothing
  */
-void times_table()
+void times_table(void)
 {
 	int num;
 	int count_1;
@@ -42,6 +42,7 @@ void times_table()
 				}
 			}
 		}
+		_putchar('\n');
 		count_2++;
 	}
 }
