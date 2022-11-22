@@ -6,6 +6,7 @@
  */
 void times_table()
 {
+	int num;
 	int count_1;
 	int count_2 = 0;
 
@@ -18,7 +19,7 @@ void times_table()
 			{
 				_putchar('0');
 				_putchar(',');
-				count1++;
+				count_1++;
 			}
 			else
 			{
@@ -29,7 +30,7 @@ void times_table()
 					_putchar(32);
 					_putchar('0' + num);
 					_putchar(',');
-					count_1++
+					count_1++;
 				}
 				else
 				{
